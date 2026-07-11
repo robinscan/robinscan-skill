@@ -1,10 +1,10 @@
 # Robinscan Skill
 
-A Claude Code skill for querying [Robinhood Chain](https://robinscan.io) blockchain data.
+An AI agent skill for querying [Robinhood Chain](https://robinscan.io) blockchain data.
 
 ## What it does
 
-This skill teaches Claude how to use the robinscan.io API to look up blockchain data on Robinhood Chain (chain ID 4663). It covers:
+This skill teaches any AI agent how to use the robinscan.io API to look up blockchain data on Robinhood Chain (chain ID 4663). It covers:
 
 - Chain statistics and network health
 - Address transaction history
@@ -13,11 +13,12 @@ This skill teaches Claude how to use the robinscan.io API to look up blockchain 
 - Tokenized stock prices
 - Live block data
 
-## Installation
+## Compatible with
 
-```bash
-claude skill add robinscan-skill /path/to/robinscan-skill
-```
+- Claude Code / Claude Desktop
+- OpenAI Agents SDK
+- LangChain / LangGraph
+- Any agent framework that supports skills or function calling
 
 ## License
 
